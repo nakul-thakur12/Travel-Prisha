@@ -189,7 +189,7 @@ src="https://plus.unsplash.com/premium_photo-1681487906725-ecd65970ac66?w=500&au
                   <option>UK Visa</option>
                   <option>Other</option>
                 </select>
-                <button className="w-full py-5 bg-blue-600 text-white font-bold text-xl rounded-xl hover:bg-blue-700 transition">
+                <button className="w-full py-3 bg-blue-600 text-white font-bold text-xl rounded-xl hover:bg-blue-700 transition">
                   Send Request
                 </button>
               </form>
