@@ -20,7 +20,7 @@ export const Contact = () => {
               <div className="space-y-6 text-lg">
                 <div>
                   <p className="font-semibold">Phone / WhatsApp</p>
-                  <a href="tel:+919981573873" className="text-blue-600 text-2xl">+91 9981573873</a>
+                  <a href="tel:+919981573873" className="text-blue-600 text-xl">+91 9981573873</a>
                 </div>
                 <div>
                   <p className="font-semibold">Email</p>
@@ -43,24 +43,48 @@ export const Contact = () => {
             whileInView={{ opacity: 1, x: 0 }}
             className="bg-white dark:bg-slate-900 rounded-3xl shadow-2xl p-10"
           >
-            <h3 className="text-2xl font-bold mb-8">Request a Call Back</h3>
-            <form className="space-y-6">
-              <input type="text" placeholder="Your Name" className="w-full px-6 py-4 rounded-xl border border-slate-300 dark:border-slate-700 focus:ring-4 focus:ring-blue-500" required />
-              <input type="tel" placeholder="Mobile Number" className="w-full px-6 py-4 rounded-xl border border-slate-300 dark:border-slate-700 focus:ring-4 focus:ring-blue-500" required />
-              <input type="email" placeholder="Email" className="w-full px-6 py-4 rounded-xl border border-slate-300 dark:border-slate-700 focus:ring-4 focus:ring-blue-500" />
-              <select className="w-full px-6 py-4 rounded-xl border border-slate-300 dark:border-slate-700">
-                <option>Tourist Visa</option>
-                <option>Business Visa</option>
-                <option>Student Visa</option>
-                <option>Schengen Visa</option>
-                <option>UK Visa</option>
-                <option>Other</option>
-              </select>
-              <textarea rows="5" placeholder="Your Query" className="w-full px-6 py-4 rounded-xl border border-slate-300 dark:border-slate-700 focus:ring-4 focus:ring-blue-500"></textarea>
-              <button className="w-full py-5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xl rounded-xl transition transform hover:scale-105">
-                Send Request
-              </button>
-            </form>
+            <h3 className="text-2xl font-bold mb-6">Request a Call Back</h3>
+            <form className="space-y-4">
+  <input
+    type="text"
+    placeholder="Your Name"
+    className="w-full px-4 py-2.5 text-sm rounded-lg border border-slate-300 dark:border-slate-700 focus:ring-2 focus:ring-blue-500"
+    required
+  />
+
+  <input
+    type="tel"
+    placeholder="Mobile Number"
+    className="w-full px-4 py-2.5 text-sm rounded-lg border border-slate-300 dark:border-slate-700 focus:ring-2 focus:ring-blue-500"
+    required
+  />
+
+  <input
+    type="email"
+    placeholder="Email"
+    className="w-full px-4 py-2.5 text-sm rounded-lg border border-slate-300 dark:border-slate-700 focus:ring-2 focus:ring-blue-500"
+  />
+
+  <select className="w-full px-4 py-2.5 text-sm rounded-lg border border-slate-300 dark:border-slate-700">
+    <option>Tourist Visa</option>
+    <option>Business Visa</option>
+    <option>Student Visa</option>
+    <option>Schengen Visa</option>
+    <option>UK Visa</option>
+    <option>Other</option>
+  </select>
+
+  <textarea
+    rows="4"
+    placeholder="Your Query"
+    className="w-full px-4 py-2.5 text-sm rounded-lg border border-slate-300 dark:border-slate-700 focus:ring-2 focus:ring-blue-500"
+  />
+
+  <button className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold text-base rounded-lg transition transform hover:scale-[1.02]">
+    Send Request
+  </button>
+</form>
+
           </motion.div>
         </div>
       </div>
